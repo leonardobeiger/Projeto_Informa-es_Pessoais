@@ -1,0 +1,32 @@
+.container{
+    text-align: center;
+    width: 800px; /* Largura do container */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    background-color: #f0f0f0; /* Cor de fundo do container */
+    border: 1px solid #000; /* Borda do container */
+    padding: 20px; /* Espaçamento interno do container */
+}
+img{
+    width: 20%; 
+    height: 23%; 
+    border-radius: 50%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.apresentacao{
+   color: black;
+}
+.video-background {
+   
+  
+
+}
+
+#video-bg {
+    width: auto; /* Largura desejada */
+    height: 200px;
+    border-radius: 500%;
+   
+}
