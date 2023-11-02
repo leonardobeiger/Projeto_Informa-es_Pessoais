@@ -1,10 +1,16 @@
+body{
+    background-image: url("../img/fundo-fotografico-em-tecido-ceu-estrelado-2-20x1-50m-tema-para-fotos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     }
 .container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f5f5f5;
+    border: 20px solid #ddd;
+    border-radius: 30px;
     text-align: center;
-    width: 800px; /* Largura do container */
-    margin: 0 auto; /* Centralizar horizontalmente */
-    background-color: #f0f0f0; /* Cor de fundo do container */
-    border: 1px solid #000; /* Borda do container */
-    padding: 20px; /* Espaçamento interno do container */
 }
 img{
     width: 20%; 
@@ -30,3 +36,14 @@ h1{
     border-radius: 500%;
    
 }
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="mensagem"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+     }
