@@ -7,25 +7,32 @@
     <title target="_blank" >Botão de Navegação</title>
 </head>
 <body>
-    <form>
+    <form id="meuFormulario" onsubmit="return validarFormulario()">
         <div class="container">
             <div class="nome">
-                Nome <input type="text" name="name"/>
+                Nome <input type="text" name="name" id="nome"/>
+                <span id="errorNome" class="error"></span>
             </div>
             <div class="email">
-                E-mail <input type="email" name="email"/>
+                E-mail <input type="email" name="email" id="email"/>
+                <span id="errorEmail" class="error"></span>
             </div>
             <div class="telefone">
-                Telefone <input type="number" name="telefone"/>
+                Telefone <input type="number" name="telefone" id="numero"/>
+                <span id="errorNumero" class="error"></span>
             </div>
             <div class="mensagem">
-                Mensagem <textarea name="mensagem" id="" cols="30" rows="10"></textarea>
+                Mensagem <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                <span id="errorMensagem" class="error"></span>
             </div>
+           
             <div class="botao">
                 <input type="reset" name="reset" value="Limpar">
-                <input type="submit" name="submit">
+                <input type="submit" name="submit" >
             </div>
         </div>
     </form>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="../script/script.js"></script>
 </body>
 </html>
