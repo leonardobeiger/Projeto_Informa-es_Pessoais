@@ -7,7 +7,7 @@
     <title target="_blank" >Botão de Navegação</title>
 </head>
 <body>
-    <form id="meuFormulario" onsubmit="return validarFormulario()">
+    <form id="meuFormulario" >
         <div class="container">
             <div class="nome">
                 Nome <input type="text" name="name" id="nome"/>
@@ -27,8 +27,9 @@
             </div>
            
             <div class="botao">
-                <input type="reset" name="reset" value="Limpar">
-                <input type="submit" name="submit" >
+                <!--<input type="reset" name="reset" value="Limpar">
+                <input type="submit" name="submit" >-->
+                <button type="button" onclick="enviarFormulario()">Enviar</button>
             </div>
         </div>
     </form>
