@@ -68,7 +68,6 @@ function enviarFormulario() {
 
     // Cria o link do WhatsApp com o número e mensagem
     var linkWhatsapp = 'https://api.whatsapp.com/send?phone=' + encodeURIComponent(numeroTelefone) + '&text=' + encodeURIComponent(mensagem);
-
-    // Redireciona para o link do WhatsApp
-    window.location.href = linkWhatsapp;
-  }
+   // Abre uma nova guia (ou janela) com o link do WhatsApp
+    window.open(linkWhatsapp, '_blank');
+    }
