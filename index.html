@@ -3,27 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="style/style.css">
-    <title>Leonardo Beiger</title>
+    <title>Página Inicial</title>
     <title target="_blank" >Botão de Navegação</title>
+    <title>Botão WhatsApp</title>
 </head>
 <body>
+    <div class="navbar">
+        <a href="./index.html">Página Inicial</a>
+        <a href="./src/contato.html">Contato</a>
+    </div>
     
-    
-    <div class="container">
-        <h1>Leonardo Beiger</h1>
+    <div class="tudo">
+
         <div class="video-background">
             <video autoplay muted loop id="video-bg">
                 <source src="./img/video.mp4" type="video/mp4">
             </video>
             
             <!--<img src="img/IMG-20221008-WA0101.jpg" class="img" alt="">-->
-            <div class="apresentacao">
-                Olá, sou Leonardo Beiger, nascido em 01 de outubro de 2004 e orgulhosamente residente na bela cidade de Rio do Campo. Atualmente, estou empenhado em minha jornada educacional, cursando Tecnico em Desenvolvimento de Sistemas.<br><br>Desde cedo, desenvolvi uma paixão pela tecnologia e pela arte de criar sistemas inovadores que podem transformar o mundo ao nosso redor. O curso de Desenvolvimento de Sistemas tem sido a minha escolha natural, proporcionando-me as habilidades e o conhecimento necessários para enfrentar os desafios em constante evolução do mundo digital.<br><br>Acredito que a tecnologia é uma força impulsionadora capaz de melhorar vidas, otimizar processos e conectar pessoas. Estou ansioso para contribuir para a criação de soluções inovadoras e fazer a diferença no campo do desenvolvimento de sistemas.<br><br>Além disso, estou aberto a oportunidades de aprendizado, colaboração e crescimento. Se você estiver interessado em discutir projetos emocionantes ou compartilhar experiências no mundo da tecnologia, sinta-se à vontade para entrar em contato. Estou animado para construir um futuro de sucesso e inovação na área de desenvolvimento de sistemas.
+            <div class="container primeiro-container">
+                <div class="apresentacao">
+                    <h1>Leonardo Beiger</h1>
+                    Olá, sou Leonardo Beiger, nascido em 01 de outubro de 2004 e orgulhosamente residente na bela cidade de Rio do Campo. Atualmente, estou empenhado em minha jornada educacional, cursando Tecnico em Desenvolvimento de Sistemas.<br><br>Desde cedo, desenvolvi uma paixão pela tecnologia e pela arte de criar sistemas inovadores que podem transformar o mundo ao nosso redor. O curso de Desenvolvimento de Sistemas tem sido a minha escolha natural, proporcionando-me as habilidades e o conhecimento necessários para enfrentar os desafios em constante evolução do mundo digital.<br><br>Acredito que a tecnologia é uma força impulsionadora capaz de melhorar vidas, otimizar processos e conectar pessoas. Estou ansioso para contribuir para a criação de soluções inovadoras e fazer a diferença no campo do desenvolvimento de sistemas.<br><br>Além disso, estou aberto a oportunidades de aprendizado, colaboração e crescimento. Se você estiver interessado em discutir projetos emocionantes ou compartilhar experiências no mundo da tecnologia, sinta-se à vontade para entrar em contato. Estou animado para construir um futuro de sucesso e inovação na área de desenvolvimento de sistemas.
+                </div>
             </div>
             
         </div>
-        <a href="src/contato.html"  target="_blank"  class="botao" >Contato</a>
     </div>
+        <a href="src/contato.html"    class="botao" >CLIQUE AQUI PARA FALAR COMIGO</a>
+    <h2>OU ME CHAME NO WHATSZAPP </h2>
+    <button onclick="enviarWhatsapp()" class="whatszapp">Abrir WhatsApp</button>
+    <script src="./script/script.js"></script>
 </body>
 </html>
 <!--<a href="src/contato.html" target="_blank"> <button>Contato</button></a>-->

@@ -60,3 +60,15 @@ function enviarFormulario() {
           alert('Erro ao enviar o formulário. Por favor, tente novamente.');
         });
     }
+   // Função que redireciona para o WhatsApp
+   function enviarWhatsapp() {
+    // Substitua "seu_numero" pelo número de telefone e "sua_mensagem" pela mensagem desejada
+    var numeroTelefone = '5547992005039';
+    var mensagem = 'Olá Sr Leonardo Beiger, gostaria de conversar com você.';
+
+    // Cria o link do WhatsApp com o número e mensagem
+    var linkWhatsapp = 'https://api.whatsapp.com/send?phone=' + encodeURIComponent(numeroTelefone) + '&text=' + encodeURIComponent(mensagem);
+
+    // Redireciona para o link do WhatsApp
+    window.location.href = linkWhatsapp;
+  }

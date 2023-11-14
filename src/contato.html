@@ -7,8 +7,12 @@
     <title target="_blank" >Botão de Navegação</title>
 </head>
 <body>
+    <div class="navbar">
+        <a href="../index.html">Página Inicial</a>
+        <a href="../src/contato.html">Contato</a>
+    </div>
     <form id="meuFormulario" >
-        <div class="container">
+        <div class="container segundo-container">
             <div class="nome">
                 Nome <input type="text" name="name" id="nome"/>
                 <span id="errorNome" class="error"></span>
@@ -29,7 +33,7 @@
             <div class="botao">
                 <!--<input type="reset" name="reset" value="Limpar">
                 <input type="submit" name="submit" >-->
-                <button type="button" onclick="enviarFormulario()">Enviar</button>
+                <button class="botaum" type="button" onclick="enviarFormulario()">Enviar</button>
             </div>
         </div>
     </form>
