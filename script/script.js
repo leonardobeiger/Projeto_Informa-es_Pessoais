@@ -71,3 +71,4 @@ function enviarFormulario() {
    // Abre uma nova guia (ou janela) com o link do WhatsApp
     window.open(linkWhatsapp, '_blank');
     }
+    
